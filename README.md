@@ -31,3 +31,8 @@ All the custom CAD files used to contruct the two robots have been included in t
 * White (PLA) - 3D Printed
 * Shiny/Colourful (Aluminium/Plastic) - Provided by VEX
 
+### SynaPooch & ArachNeuron
+SynaPooch is the dog-like robot. ArachNeuron is the spider-like robot.
+
+Please watch the video located in the 'Ramp Up Guidance' directory. Pay close attention to the process of 'waking up' the Brain after powering it down. It's important to note that executing a program immediately after powering down the Brain will not yield any behavior. In such cases, you must restart the program. This behavior is observed specifically after power cycling the VEX Brain. However, if you avoid powering it down between program executions, there is no need to restart the program; it will run successfully on the first attempt.
+
