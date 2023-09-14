@@ -97,8 +97,8 @@ R_array = -20; % GB_D
 S=-40; % GB_A
 
 % Constants to vary
-G = 0:1:10;
-Tsyn = 45:1:55;
+G = 35:2.5:45;
+Tsyn = 15:2.5:25;
 
 % Create meshgrids
 [G_grid,T_grid] = meshgrid(G, Tsyn);
@@ -145,7 +145,7 @@ ylabel('MQIF C Inhibitory Time Constant, tauSyn\_inhibitory\_C');
 title('AC Burst Latency (s)', 'FontSize', 10, 'Interpreter', 'latex');
 
 subplot(1, 2, 2);
-contourf(G_grid, T_grid, AC_phase_diff, 'LineColor', 'none', 'LineStyle', 'none');
+contourf(G_grid, T_grid, AC_phase_diff_grid, 'LineColor', 'none', 'LineStyle', 'none');
 colorbar;
 xlabel('MQIF C Inhibitory Conductance, g\_syn\_inhibitory\_C');
 ylabel('MQIF C Inhibitory Time Constant, tauSyn\_inhibitory\_C');
