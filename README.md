@@ -14,7 +14,7 @@ We also recommend the following resources:
 * https://en.wikipedia.org/wiki/Neural_coding
 * https://en.wikipedia.org/wiki/Hodgkin%E2%80%93Huxley_model
 
-### SimulinkNeurons Directory
+### Simulink Neurons Directory
 Within the Simulink Neurons directory, you will discover the following subfolders:
 
 * **Core Neurons:** This folder houses individual neurons used as building blocks for constructing derived neural circuits. Notably, "MQIF_Neuron_Synapse" stands out as the key neuron adapted for synaptic connections and circuit construction. The other two neurons include the standard MQIF neuron based on its foundational paper and the Hodgkin-Huxley neuron, included for educational purposes.
@@ -30,3 +30,4 @@ All the custom CAD files used to contruct the two robots have been included in t
 * Brown (MDF wood) - Lasercut
 * White (PLA) - 3D Printed
 * Shiny/Colourful (Aluminium/Plastic) - Provided by VEX
+
