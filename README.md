@@ -46,9 +46,9 @@ Please also watch the video located in the 'Ramp Up Guidance' directory. Pay clo
 #### 'SynaPooch - Dog Robot' Directory
 Contained within this directory are various Simulink models that were flashed onto the dog-like robot. 
 
-* 'DogGait_sine.slx': This file contains a basic gait pattern composed of sinusoidal movements, which can be replicated using MQIF neuronal circuits. To see this gait in action, use the 'stand' and 'walk' buttons, as demonstrated in the 'RobotEtiquette.mp4' video located in the 'Ramp Up Guidance' directory.
-* 'DogHalfCentre_SingleLeg.slx': This program serves as a simple demonstration of how an oscillator, constructed using a half-center central pattern generator, can leverage the particular mechanical design of SynaPooch's legs to produce rhythmic extension-contraction movements.
-* 'NeuromorphicDogGait_WalksBackwards.slx': This file showcases the application of a more intricate circuit, referred to as the 'Quad-centre CPG' (Central Pattern Generator), to generate a complex gait pattern. In this specific example, the gaiting pattern is designed to make the dog walk in reverse.
+* **'DogGait_sine.slx':** This file contains a basic gait pattern composed of sinusoidal movements, which can be replicated using MQIF neuronal circuits. To see this gait in action, use the 'stand' and 'walk' buttons, as demonstrated in the 'RobotEtiquette.mp4' video located in the 'Ramp Up Guidance' directory.
+* **'DogHalfCentre_SingleLeg.slx':** This program serves as a simple demonstration of how an oscillator, constructed using a half-center central pattern generator, can leverage the particular mechanical design of SynaPooch's legs to produce rhythmic extension-contraction movements.
+* **'NeuromorphicDogGait_WalksBackwards.slx':** This file showcases the application of a more intricate circuit, referred to as the 'Quad-centre CPG' (Central Pattern Generator), to generate a complex gait pattern. In this specific example, the gaiting pattern is designed to make the dog walk in reverse.
 
 
 
