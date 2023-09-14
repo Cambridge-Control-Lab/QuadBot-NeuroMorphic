@@ -69,7 +69,7 @@ ylabel('Excitatory Time Constant, tauSyn\_excitatory');
 title('Excitatory Connection Phase Difference (deg)', 'FontSize', 10, 'Interpreter', 'latex');
 
 % Adjust the layout of subplots
-sgtitle('Excitatory Behaviour for different g\_syn and $\tau_{syn}$, ($\tau_s = 2.5, \tau_{us} = 220$)', 'FontSize', 14, 'Interpreter', 'latex');
+sgtitle(sprintf('Excitatory Behaviour for different g_syn and $\\tau_{syn}$, ($\\tau_s = %.1f, \\tau_{us} = %.1f$)', t1, t2), 'FontSize', 14, 'Interpreter', 'latex');
 
 % Create a new figure
 figure('Position', [100, 100, 800, 800]);
@@ -90,7 +90,7 @@ title('Inhibitory Connection Phase Difference (deg)','FontSize', 10);
 colormap('parula');
 
 % Adjust the layout of subplots
-sgtitle('Inhibitory Behaviour for different g\_syn and $\tau_{syn}$, ($\tau_s = 2.5, \tau_{us} = 220$)', 'FontSize', 14, 'Interpreter', 'latex');
+sgtitle(sprintf('Inhibitory Behaviour for different g_syn and $\\tau_{syn}$, ($\\tau_s = %.1f, \\tau_{us} = %.1f$)', t1, t2), 'FontSize', 14, 'Interpreter', 'latex');
 
 set(gcf, 'Color', 'w');
 set(findall(gcf, 'type', 'axes'), 'FontSize', 10);

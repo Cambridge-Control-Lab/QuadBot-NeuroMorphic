@@ -1,5 +1,5 @@
 dt = 1e-3;
-runtime=45;
+runtime=30;
 num_steps=floor(runtime/dt);
 
 t1=1.5;
@@ -7,8 +7,8 @@ t2=190;
 
 % Constants to vary. Please refer to 'QuadCentreForCharacterising.slx'
 P=-40; % GB_B
-Q_array = -40:1:-20; % GB_C
-R_array = -40:1:-20; % GB_D
+Q_array = -40:2:-20; % GB_C
+R_array = -40:2:-20; % GB_D
 S=-40; % GB_A
 g_syn=0.5;
 tauSyn=50;
@@ -87,18 +87,18 @@ title('AD Phase Difference (deg)','FontSize', 10);
 colormap('parula');
 
 % Adjust Layout
-sgtitle(['QuadCentre Variations with GB\_C and GB\_D, ($\tau_s = 1.5, \tau_{us} = 190$)'], 'FontSize', 14, 'Interpreter', 'latex');
+sgtitle(['QuadCentre Variations with GB\_C and GB\_D, ($\tau_s = ', num2str(t1), ', \tau_{us} = ', num2str(t2), ')$'], 'FontSize', 14, 'Interpreter', 'latex');
 set(gcf, 'Color', 'w');
 set(findall(gcf, 'type', 'axes'), 'FontSize', 10);
 
 P=-40; % GB_B
-Q_array = -40; % GB_C
-R_array = -40; % GB_D
+Q_array = -20; % GB_C
+R_array = -20; % GB_D
 S=-40; % GB_A
 
 % Constants to vary
-G = 35:1:45;
-Tsyn = 15:1:25;
+G = 0:1:10;
+Tsyn = 45:1:55;
 
 % Create meshgrids
 [G_grid,T_grid] = meshgrid(G, Tsyn);
@@ -107,9 +107,8 @@ Tsyn = 15:1:25;
 AC_latency_grid = zeros(size(G_grid));
 AC_phase_diff_grid = zeros(size(G_grid));
 
-length_G = length(G_grid);
-length_T = length(T_grid);
-
+length_G = length(G);
+length_T = length(T);
 
 for i = 1:length_G
     g_syn = G(i);
@@ -146,13 +145,13 @@ ylabel('MQIF C Inhibitory Time Constant, tauSyn\_inhibitory\_C');
 title('AC Burst Latency (s)', 'FontSize', 10, 'Interpreter', 'latex');
 
 subplot(1, 2, 2);
-contourf(Ge_grid, Te_grid, excite_phase_diff_grid, 'LineColor', 'none', 'LineStyle', 'none');
+contourf(G_grid, T_grid, AC_phase_diff, 'LineColor', 'none', 'LineStyle', 'none');
 colorbar;
 xlabel('MQIF C Inhibitory Conductance, g\_syn\_inhibitory\_C');
 ylabel('MQIF C Inhibitory Time Constant, tauSyn\_inhibitory\_C');
 title('AC Phase Difference (deg)', 'FontSize', 10, 'Interpreter', 'latex');
 
 % Adjust the layout of subplots
-sgtitle('Quadcentre Wavforms for different g\_syn and $\tau_{syn}$, ($\tau_s = 1.5, \tau_{us} = 190$)', 'FontSize', 14, 'Interpreter', 'latex');
+sgtitle(sprintf('Quadcentre Wavforms for different g_syn and $\\tau_{syn}$, ($\\tau_s = %.1f, \\tau_{us} = %.1f$)', t1, t2), 'FontSize', 14, 'Interpreter', 'latex');
 set(gcf, 'Color', 'w');
 set(findall(gcf, 'type', 'axes'), 'FontSize', 10);
