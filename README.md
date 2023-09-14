@@ -26,7 +26,7 @@ Within the Simulink Neurons directory, you will discover the following subfolder
 * **Characterising:** In this folder is a collection of MATLAB scripts for characterising neural output in relation to its governing parameters. Particular MQIF parameters can be optimised to achieve a specfic pulse shapes, frequencies, durations, etc. These scripts have been included to aid future developers explore the parameter space. 
 
 ### Solidworks
-All the custom CAD files used to contruct the two robots have been included in this directory. Here is a general rule-thumb-guide how each part of the existing robot was manufactures:
+All the custom CAD files used to contruct the two robots have been included in this directory. Here is a general rule-thumb-guide how each part of the existing robot was manufactured:
 * Brown (MDF wood) - Lasercut
 * White (PLA) - 3D Printed
 * Shiny/Colourful (Aluminium/Plastic) - Provided by VEX
