@@ -1,6 +1,10 @@
 # QuadBot-NeuroMorphic
 Software library developed as part of a undergraduate research project at the University of Cambridge, aimed at advancing the study of robotic locomotion neuromorphic control principles.
 
+Contributor: Prithvi Raj
+Supervisors: Dr. Fulvio Forni, Prof. Timothy O'Leary
+Funding Body: MathWorks
+
 ## Repository Overview
 ### 'Ramp Up Guidance' Directory
 In this directory, you will discover a range of resources designed to facilitate your journey through this project. We recommend starting with 'Short Introductory Report.pdf' to gain valuable contextual insights into the undergraduate research placement conducted during the summer of 2023.
@@ -25,8 +29,10 @@ Within the Simulink Neurons directory, you will discover the following subfolder
 
 * **Characterising:** In this folder is a collection of MATLAB scripts for characterising neural output in relation to its governing parameters. Particular MQIF parameters can be optimised to achieve a specfic pulse shapes, frequencies, durations, etc. These scripts have been included to aid future developers explore the parameter space. 
 
+These components (hopefully) enable the straightforward assembly of neuromorphic circuits for locomotive control. Individual neurons can be used to build central pattern generator circuits. When central pattern generator circuits are combined with feedback neurons, they can produce oscillators. These oscillators, in turn, allow for the encoding of stable gait patterns. An example of this can be referred to in the SynaPooch directory. 'NeuromorphicDogGait_WalksBackwards.slx' is a demonstration of this. 
+
 ### 'Solidworks' Directory
-All the custom CAD files used to contruct the two robots have been included in this directory. Here is a general rule-thumb-guide how each part of the existing robot was manufactured:
+All the custom CAD files used to contruct the two robots have been included in this directory. Here is a general rule-of-thumb-guide how each part of the existing robot was manufactured:
 * Brown (MDF wood) - Lasercut
 * White (PLA) - 3D Printed
 * Shiny/Colourful (Aluminium/Plastic) - Provided by VEX
