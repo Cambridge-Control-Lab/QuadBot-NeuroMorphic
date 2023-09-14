@@ -9,7 +9,7 @@ Software library developed as part of a undergraduate research project at the Un
 * Vex_V5_Simulink_Expansion --included in repo
 * [VEX CAD Master Files](https://github.com/VEX-CAD/VEX-CAD-Solidworks) --optional but useful
 
-## SimulinkNeurons Directory
+## Simulink Neurons Directory
 Within the SimulinkNeurons directory, you will discover the following subfolders:
 
 * **Core Neurons:** This folder houses individual neurons used as building blocks for constructing derived neural circuits. Notably, "MQIF_Neuron_Synapse" stands out as the key neuron adapted for synaptic connections and circuit construction. The other two neurons include the standard MQIF neuron based on its foundational paper and the Hodgkin-Huxley neuron, included for educational purposes.
