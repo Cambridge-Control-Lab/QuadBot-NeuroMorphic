@@ -5,8 +5,8 @@ Software library developed as part of a undergraduate research project at the Un
 * MATLAB/Simulink R2022b or later
 * SOLIDWORKS 2022 or later
 * [VEX V5 Brain Support Package](https://uk.mathworks.com/help/supportpkg/vexv5)
-* AdvancedSmartMotorBlocks_18b_v2 (included in repo)
-* Vex_V5_Simulink_Expansion (included in repo)
+* AdvancedSmartMotorBlocks_18b_v2 --included in repo
+* Vex_V5_Simulink_Expansion --included in repo
 * [VEX CAD Master Files](https://github.com/VEX-CAD/VEX-CAD-Solidworks) --optional but useful
 
 ## SimulinkNeurons Directory
