@@ -7,6 +7,7 @@ Software library developed as part of a undergraduate research project at the Un
 * [VEX V5 Brain Support Package](https://uk.mathworks.com/help/supportpkg/vexv5)
 * AdvancedSmartMotorBlocks_18b_v2 (included in repo)
 * Vex_V5_Simulink_Expansion (included in repo)
+* [VEX CAD Master Files](https://github.com/VEX-CAD/VEX-CAD-Solidworks) --optional but useful
 
 ## SimulinkNeurons Directory
 Within the SimulinkNeurons directory, you will discover the following subfolders:
