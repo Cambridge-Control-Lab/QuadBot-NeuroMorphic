@@ -34,8 +34,12 @@ All the custom CAD files used to contruct the two robots have been included in t
 ### SynaPooch & ArachNeuron
 SynaPooch is the dog-like robot. ArachNeuron is the spider-like robot.
 
-![Dog Robot](https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/Ramp%20Up%20Guidance/SynaPooch.jpg)
-![Spider Robot](https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/Ramp%20Up%20Guidance/ArachNeuron.jpg)
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/Ramp%20Up%20Guidance/SynaPooch.jpg" width="300" alt="Dog Robot">
+  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/Ramp%20Up%20Guidance/ArachNeuron.jpg" width="300" alt="Spider Robot">
+</div>
 
-Please watch the video located in the 'Ramp Up Guidance' directory. Pay close attention to the process of 'waking up' the Brain after powering it down. It's important to note that executing a program immediately after powering down the Brain will not yield any behavior. In such cases, you must restart the program. This behavior is observed specifically after power cycling the VEX Brain. However, if you avoid powering it down between program executions, there is no need to restart the program; it will run successfully on the first attempt.
+Please also watch the video located in the 'Ramp Up Guidance' directory. Pay close attention to the process of 'waking up' the Brain after powering it down. It's important to note that executing a program immediately after powering down the Brain will not yield any behavior. In such cases, you must restart the program. This behavior is observed specifically after power cycling the VEX Brain. However, if you avoid powering it down between program executions, there is no need to restart the program; it will run successfully on the first attempt.
+
+
 
