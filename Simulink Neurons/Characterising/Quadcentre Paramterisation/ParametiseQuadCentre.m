@@ -108,7 +108,7 @@ AC_latency_grid = zeros(size(G_grid));
 AC_phase_diff_grid = zeros(size(G_grid));
 
 length_G = length(G);
-length_T = length(T);
+length_T = length(Tsyn);
 
 for i = 1:length_G
     g_syn = G(i);
