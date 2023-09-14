@@ -4,7 +4,7 @@ Software library developed as part of a undergraduate research project at the Un
 ## Prerequisites
 * MATLAB/Simulink R2022b or later
 * SOLIDWORKS 2022 or later
-* [VEX V5 Brain Support Package]([https://www.google.com](https://uk.mathworks.com/help/supportpkg/vexv5/))
+* [VEX V5 Brain Support Package](https://uk.mathworks.com/help/supportpkg/vexv5/)
 * AdvancedSmartMotorBlocks_18b_v2 (included in repo)
 * Vex_V5_Simulink_Expansion (included in repo)
 
