@@ -41,8 +41,8 @@ All the custom CAD files used to contruct the two robots have been included in t
 NeuroPup is the dog-like robot. Synapider is the spider-like robot. Both are quadrupedal robots that were developed as part of the 10-week undergraduate research program completed during summer 2023. As previously stated, both have been built out of a combination of VEX hardware, lasercut MDF wood, and 3D-printed parts.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/tree/main/Synapider%20-%20Spider%20Robot/Neuropup.jpg" width="300" alt="Dog Robot">
-  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/tree/main/Synapider%20-%20Spider%20Robot/Synapider.jpg" width="300" alt="Spider Robot">
+  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/NeuroPup%20-%20Dog%20Robot/NeuroPup.jpg" width="300" alt="Dog Robot">
+  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/Synapider%20-%20Spider%20Robot/Synapider.jpg" width="300" alt="Spider Robot">
 </div>
 
 Please also watch the video linked [here](https://youtu.be/NR2hcypiejE), which serves as a brief introduction regarding the use of the VEX robots. Pay close attention to the process of 'waking up' the Brain after powering it down. It's important to note that executing a program immediately after powering down the Brain will not yield any behavior. In such cases, you must restart the program. This behavior is observed specifically after power cycling the VEX Brain. However, if you avoid powering it down between program executions, there is no need to restart the program; it will run successfully on the first attempt.
