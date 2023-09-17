@@ -122,7 +122,7 @@ Amidst the demands of attending lectures and the pressing deadlines for my Maste
 
 2. **Parallelization of Characterization Scripts:** The current characterisation scripts encounter performance bottlenecks due to the extensive simulations required to analyze the behaviors of neurons under various parameter variations. To enhance efficiency, I intend to parallelise these scripts, thereby significantly reducing the execution time and enabling quicker assessments.
 
-3. **Versatile CPG Development:** My goal is to expand the capabilities of the Central Pattern Generators (CPGs). Specifically, I am interested in creating a tri-center CPG as it holds the potential for generating versatile sine-like outputs. By leveraging the three spike trains at its output, this configuration might be able to synthesise diverse sinusoidal signals without the intricacies associated with a quad-center CPG. This approach may also lead to a more manageable feedback mechanism.
+3. **Versatile CPG Development:** My goal is to expand the capabilities of the Central Pattern Generators (CPGs). Specifically, I am interested in creating a "tri-center" CPG as it holds the potential for generating versatile sine-like outputs. By leveraging the three spike trains at its output, this configuration might be able to synthesise diverse sinusoidal signals without the intricacies associated with a "quad-center" CPG. Hopefully, this approach may also lead to a more manageable feedback mechanism.
 
 Godspeed, and enjoy tinkering!
 
