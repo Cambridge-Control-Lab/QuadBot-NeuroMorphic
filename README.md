@@ -6,6 +6,9 @@ This repository is dedicated to the "Neuromorphic Control of Quadrupedal Robots"
 * Supervisors: Dr. Fulvio Forni, Prof. Timothy O'Leary
 * Funding Body: MathWorks
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![View QuadBot-NeuroMorphic on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/135517-quadbot-neuromorphic)
+
+
 <p align="center">
   <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/assets/77790119/83281e7f-eb36-46f4-8208-e5a165300746" width="500">
 </p>
