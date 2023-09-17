@@ -44,7 +44,7 @@ Additionally, within this directory you will find the 'Neuron Guidance' subfolde
 * The Jupyter Notebook **'Neuron_Introductions.ipynb**', which contains experiments to help you develop a deeper understanding of these models. It does not serve as a replacement to reading neuroscience literature, but hopefully it can present the best practice towards learning the behaviours of the neuron models, which is through experimentation and experience. 
 
 * A Python implementation of the MQIF Neuron, named **'MQIF_Neuron_Python.py'**. If you have previous experience with traditional software languages, (but maybe less experience with Simulink), we recommend exploring this file. Although it may appear daunting at first glance, the majority of the code consists of comments to assist you! This Python script is provided to facilitate your understanding of the MQIF neuron through standard coding practices, as the majority of the software in this project was developed in Simulink.
-  * The script also contains a function for tracking spikes within the MQIF neuron's output burst. This concept is expanded upon in 'Simulink Neurons/Characterising' simulations, so familiarity with this function is recommended.
+  * The script also contains a function for tracking spikes within the MQIF neuron's output burst. This concept is expanded upon in 'Simulink Neurons/Characterising' simulations, so developing some familiarity with this function is recommended.
 * Literature explaining the neuroscience theory underpinning the software contained within this repository.
 
 Once you have gained confidence with the Python/Notebook implementations of the neurons, consider examining the corresponding Simulink implementations available in the 'Simulink Neurons/Core Neurons' directory. The most important model is the 'MQIF_Neuron_Synapse.slx' file, as it serves as the foundational neuron for all central pattern generator circuits within this repository. In support of this, a video lecture has been recorded to aid your understanding: [MQIF_Synapse Explanation](https://youtu.be/Tk5bJmx7L14).
@@ -85,8 +85,6 @@ Both are quadrupedal robots that were developed as part of the 10-week undergrad
 | *NeuroPup* | *Synapider* |
 
 
-
-
 Please also watch the video linked [here](https://youtu.be/NR2hcypiejE), which serves as a brief introduction regarding the use of the VEX robots. Pay close attention to the process of 'waking up' the Brain after powering it down. It's important to note that executing a program immediately after powering down the Brain will not yield any behavior. In such cases, you must restart the program. This behavior is observed specifically after power cycling the VEX Brain. However, if you avoid powering it down between program executions, there is no need to restart the program; it will run successfully on the first attempt.
 
 **Please be aware that the VEX Brain imposes a minimum flashable sampling time of 0.001 seconds. Consequently, before uploading any Simulink models that incorporate the MQIF Neuron to the VEX Brain, please ensure that the fixed time-step solver is configured with a time step of 1e-3. This time step is also specifically stable for solving the MQIF ODEs. Using a larger time step may result in incorrect solutions/instability, while a smaller time step will not load onto the VEX Brain.**
@@ -100,7 +98,7 @@ Contained within this directory are various Simulink models that were flashed on
 
 * **'DogGait_sine.slx':** This file contains a basic gait pattern composed of sinusoidal movements, which can be replicated using MQIF neuronal circuits. To see this gait in action, use the 'stand' and 'walk' buttons, as demonstrated in the [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE) video.
 * **'DogHalfCentre_SingleLeg.slx':** This program serves as a simple demonstration of how an oscillator, constructed using a half-center central pattern generator, can leverage the particular mechanical design of Neuropup's legs to produce rhythmic extension-contraction movements.
-* **'NeuromorphicDogGait_WalksBackwards.slx':** This file showcases the application of a more intricate circuit, referred to as the 'Quad-centre CPG' (Central Pattern Generator), to generate a complex gait pattern. In this specific example, the gaiting pattern is designed to make the dog walk in reverse. For a brief explanation of how this was achieved, please watch the [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ) video.
+* **'NeuromorphicDogGait_WalksBackwards.slx':** This file showcases the application of a more intricate circuit, which we have started calling the 'Quad-centre CPG' (Central Pattern Generator), to generate a complex gait pattern. In this specific example, the gaiting pattern is designed to make the dog walk in reverse. For a brief explanation of how this was achieved, please watch the [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ) video.
 
 #### 'Synapider - Spider Robot' Directory 
 Within this directory are various Simulink models that were flashed onto the spider-like robot. 
