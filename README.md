@@ -5,7 +5,8 @@ Software library developed as part of a undergraduate research project at the Un
 * Supervisors: Dr. Fulvio Forni, Prof. Timothy O'Leary
 * Funding Body: MathWorks
 
-<img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/assets/77790119/20187995-0859-492b-896a-064ba62424f2" alt="IMG20230901154540" width="300" height="200">
+<img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/assets/77790119/20187995-0859-492b-896a-064ba62424f2" alt="IMG20230901154540" width="300">
+
 
 ## Prerequisites
 
