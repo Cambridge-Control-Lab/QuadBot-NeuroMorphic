@@ -1,7 +1,8 @@
-# QuadBot-NeuroMorphic
-Software library developed as part of a undergraduate research project at the University of Cambridge, aimed at advancing the study of robotic locomotion neuromorphic control principles.
+# Welcome to **QuadBot-NeuroMorphic!** 
 
-* Contributor: Prithvi Raj
+This repository is dedicated to the "Neuromorphic Control of Quadrupedal Robots" project, which was conducted as part of an undergraduate research opportunity hosted by the Cambridge University Engineering Department.
+
+* Contributor: Prithvi Raj (pr478@cam.ac.uk)
 * Supervisors: Dr. Fulvio Forni, Prof. Timothy O'Leary
 * Funding Body: MathWorks
 
@@ -10,6 +11,20 @@ Software library developed as part of a undergraduate research project at the Un
 </p>
 <p align="center"><em>Welcome to the repository!</em></p>
 
+## Project Overview
+
+For further contextual details about the project and its goals, please refer to the brief contextual report, **Ramp Up Guidance/Short Introductory Report.pdf**.
+
+Throughout this README, you will find links to various unlisted YouTube videos providing further guidance. Here is an index of all of them for your reference:
+1. [Welcome Compilation](https://youtu.be/8BMxn9v1NPU)
+2. [Using the Robots](https://youtu.be/NR2hcypiejE)
+3. [Neuromorphic Gaiting Overview](https://youtu.be/aiv5ElMc6nQ)
+4. [Flashing the VEX Hardware](https://youtu.be/GqSq24PBeaw)
+5. [MQIF Simulink Lecture](https://youtu.be/Tk5bJmx7L14)
+6. [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE)
+7. [Introducing Synapider!](https://youtu.be/WLrbr75hk20)
+
+Thank you for your interest in our project, and feel free to reach out to clarify and learn more about our work in the field of neuromorphic robotics!
 
 ## Prerequisites
 
