@@ -10,8 +10,8 @@ Software library developed as part of a undergraduate research project at the Un
 * MATLAB/Simulink R2022b or later
 * SOLIDWORKS 2022 or later
 * [Simulink Coder Support Package for VEX EDR V5 Robot Brain](https://uk.mathworks.com/help/supportpkg/vexv5/)
-* [VEX V5 Advanced Smart Motor Blocks files](https://uk.mathworks.com/matlabcentral/answers/435564-vex-v5-motor-voltage) --(The files are provided in this repository for convenience)
-* [VEX V5 Simulink Expansion](https://uk.mathworks.com/matlabcentral/fileexchange/119133-vex-v5-simulink-expansion) --(The files are provided in this repository for convenience)
+* [VEX V5 Advanced Smart Motor Blocks files](https://uk.mathworks.com/matlabcentral/answers/435564-vex-v5-motor-voltage) --has been provided in this repository for convenience
+* [VEX V5 Simulink Expansion](https://uk.mathworks.com/matlabcentral/fileexchange/119133-vex-v5-simulink-expansion) --has been provided in this repository for convenience
 
 ## Repository Overview
 ### 'Ramp Up Guidance' Directory
