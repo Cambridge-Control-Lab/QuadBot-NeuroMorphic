@@ -42,13 +42,13 @@ Thank you for your interest in our project, and feel free to reach out to clarif
 ### 'Ramp Up Guidance' Directory
 In this directory, you will discover a range of resources designed to facilitate your journey through this project. We recommend starting with 'Short Introductory Report.pdf' to gain contextual information regarding the undergraduate research placement conducted during the summer of 2023.
 
-Additionally, within this directory you will find the 'Neuron Guidance' subfolder, which aims to extend your understanding of the fundamental neuroscience principles underpinning the neuron models implemented in Simulink. This subfolder contains: 
+Additionally, within this directory you will find the 'Neuron Guidance' subfolder, which aims to extend your understanding of the fundamental neuroscience principles underpinning the neuron models implemented in Simulink. This subfolder contains:
 
+* Literature explaining the neuroscience theory underpinning the software contained within this repository.
 * The Jupyter Notebook **'Neuron_Introductions.ipynb**', which contains experiments to help you develop a deeper understanding of these models. It does not serve as a replacement to reading neuroscience literature, but hopefully it can present the best practice towards learning the behaviours of the neuron models, which is through experimentation and experience. 
-
 * A Python implementation of the MQIF Neuron, named **'MQIF_Neuron_Python.py'**. If you have previous experience with traditional software languages, (but maybe less experience with Simulink), we recommend exploring this file. Although it may appear daunting at first glance, the majority of the code consists of comments to assist you! This Python script is provided to facilitate your understanding of the MQIF neuron through standard coding practices, as the majority of the software in this project was developed in Simulink.
   * The script also contains a function for tracking spikes within the MQIF neuron's output burst. This concept is expanded upon in 'Simulink Neurons/Characterising' simulations, so developing some familiarity with this function is recommended.
-* Literature explaining the neuroscience theory underpinning the software contained within this repository.
+
 
 Once you have gained confidence with the Python/Notebook implementations of the neurons, consider examining the corresponding Simulink implementations available in the 'Simulink Neurons/Core Neurons' directory. The most important model is the 'MQIF_Neuron_Synapse.slx' file, as it serves as the foundational neuron for all central pattern generator circuits within this repository. In support of this, a video lecture has been recorded to aid your understanding: [MQIF_Synapse Explanation](https://youtu.be/Tk5bJmx7L14).
 
