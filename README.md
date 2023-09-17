@@ -1,4 +1,4 @@
-![Welcome Image](https://github.com/PritRaj1/QuadBot-NeuroMorphic/assets/77790119/da51a1ad-11fc-459b-ba35-94c510875757)# Welcome to **QuadBot-NeuroMorphic!** 
+# Welcome to **QuadBot-NeuroMorphic!** 
 
 This repository is dedicated to the "Neuromorphic Control of Quadrupedal Robots" project, which was conducted as part of an undergraduate research opportunity hosted by the Cambridge University Engineering Department.
 
