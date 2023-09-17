@@ -45,7 +45,7 @@ Within the Simulink Neurons directory, you will discover the following subfolder
 
 * **Characterising:** In this folder is a collection of MATLAB scripts for characterising neural output in relation to its governing parameters. Particular MQIF parameters can be optimised to achieve a specfic pulse shapes, frequencies, durations, etc. These scripts have been included to aid future developers explore the parameter space. 
 
-These components (hopefully) enable the straightforward assembly of neuromorphic circuits for locomotive control. Individual neurons can be used to build central pattern generator circuits. When central pattern generator circuits are combined with feedback neurons, they can produce oscillators. These oscillators, in turn, allow for the encoding of stable gait patterns. For a breif and explanatory demonstration of this, you can watch the video here: [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ).
+These components (hopefully) enable the straightforward assembly of neuromorphic circuits for locomotive control. Individual neurons can be used to build central pattern generator circuits. When central pattern generator circuits are combined with feedback neurons, they can produce oscillators. These oscillators, in turn, allow for the encoding of stable gait patterns. For a brief and explanatory demonstration of this, you can watch the video here: [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ).
 
 ### 'Solidworks' Directory
 All the custom CAD files used to contruct the two robots have been included in this directory. Here is a general rule-of-thumb-guide how each part of the existing robot was manufactured:
@@ -54,7 +54,9 @@ All the custom CAD files used to contruct the two robots have been included in t
 * Shiny/Colourful (Aluminium/Plastic) - Provided by VEX
 
 ### NeuroPup & Synapider
-NeuroPup is the dog-like robot. Synapider is the spider-like robot. Both are quadrupedal robots that were developed as part of the 10-week undergraduate research program completed during summer 2023. As previously stated, both have been built out of a combination of VEX hardware, lasercut MDF wood, and 3D-printed parts.
+NeuroPup is the dog-like robot. Synapider is the spider-like robot. 
+
+Both are quadrupedal robots that were developed as part of the 10-week undergraduate research program completed during summer 2023. As previously stated, both have been built out of a combination of VEX hardware, lasercut MDF wood, and 3D-printed parts.
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/NeuroPup%20-%20Dog%20Robot/NeuroPup.jpg" width="300" alt="Dog Robot">
@@ -65,12 +67,21 @@ Please also watch the video linked [here](https://youtu.be/NR2hcypiejE), which s
 
 **Please be aware that the VEX Brain has a minimum flashable sampling time of 0.001 seconds. Therefore, before uploading any Simulink models to the VEX Brain, ensure that the fixed time-step solver is configured with a time step of 1e-3. This specific time step is also stable for solving the MQIF ODEs. Using a larger time step may result in incorrect solutions/instability, while a smaller time step will not load onto the VEX Brain.**
 
+Two videos have been recorded to introduce you to the two robots. They are recommended viewing, as some advice is also provided regarding their usage:
+* [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE)
+* [Introducing Synapider!](https://youtu.be/WLrbr75hk20)
+
 #### 'Neuropup - Dog Robot' Directory
 Contained within this directory are various Simulink models that were flashed onto the dog-like robot. 
 
-* **'DogGait_sine.slx':** This file contains a basic gait pattern composed of sinusoidal movements, which can be replicated using MQIF neuronal circuits. To see this gait in action, use the 'stand' and 'walk' buttons, as demonstrated in the 'RobotEtiquette.mp4' video located in the 'Ramp Up Guidance' directory.
+* **'DogGait_sine.slx':** This file contains a basic gait pattern composed of sinusoidal movements, which can be replicated using MQIF neuronal circuits. To see this gait in action, use the 'stand' and 'walk' buttons, as demonstrated in the [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE) video.
 * **'DogHalfCentre_SingleLeg.slx':** This program serves as a simple demonstration of how an oscillator, constructed using a half-center central pattern generator, can leverage the particular mechanical design of Neuropup's legs to produce rhythmic extension-contraction movements.
-* **'NeuromorphicDogGait_WalksBackwards.slx':** This file showcases the application of a more intricate circuit, referred to as the 'Quad-centre CPG' (Central Pattern Generator), to generate a complex gait pattern. In this specific example, the gaiting pattern is designed to make the dog walk in reverse.
+* **'NeuromorphicDogGait_WalksBackwards.slx':** This file showcases the application of a more intricate circuit, referred to as the 'Quad-centre CPG' (Central Pattern Generator), to generate a complex gait pattern. In this specific example, the gaiting pattern is designed to make the dog walk in reverse. For a brief explanation of how this was achieved, please watch the [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ) video.
+
+#### 'Synapider - Spider Robot' Directory 
+Within this directory are various Simulink models that were flashed onto the spider-like robot. 
+
+* **
 
 
 
