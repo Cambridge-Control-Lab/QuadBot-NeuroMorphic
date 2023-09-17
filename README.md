@@ -7,7 +7,7 @@ This repository is dedicated to the "Neuromorphic Control of Quadrupedal Robots"
 * Funding Body: MathWorks
 
 <p align="center">
-  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/assets/77790119/20187995-0859-492b-896a-064ba62424f2" alt="IMG20230901154540" width="500">
+  <img src="https://github.com/PritRaj1/QuadBot-NeuroMorphic/assets/77790119/83281e7f-eb36-46f4-8208-e5a165300746" width="500">
 </p>
 <p align="center"><em>Welcome to the repository!</em></p>
 
@@ -67,7 +67,7 @@ Within the Simulink Neurons directory, you will discover the following subfolder
 
 * **Derived Oscillators:** This folder contains the aforementioned "Derived Network" objects connected with feedback in a manner that yields a stable sine wave after double integration. These examples showcase how a neuromorphic gaiting waveform can be employed to control sinusoidal gaiting, and have been included as inspiration for future developers.
 
-* **Characterising:** In this folder is a collection of MATLAB scripts for characterising neural output in relation to its governing parameters. Particular MQIF parameters can be optimised to achieve a specfic pulse shapes, frequencies, durations, etc. These scripts have been included to aid future developers explore the parameter space. 
+* **Characterising:** In this folder is a collection of MATLAB scripts for characterising neural output in relation to its governing parameters. Particular MQIF parameters can be optimised to achieve specfic pulse shapes, frequencies, durations, etc. These scripts have been included to aid future developers explore the parameter space. 
 
 These components (hopefully) enable the straightforward assembly of neuromorphic circuits for locomotive control. Individual neurons can be used to build central pattern generator circuits. When central pattern generator circuits are combined with feedback neurons, they can produce oscillators. These oscillators, in turn, allow for the encoding of stable gait patterns. For a brief and explanatory demonstration of this, you can watch the video here: [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ).
 

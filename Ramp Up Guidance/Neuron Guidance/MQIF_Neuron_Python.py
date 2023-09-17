@@ -286,19 +286,16 @@ def characterise_spiketrain(dt, spike_array):
     
     return frequency, spikes_per_burst, burst_duration, duty_cycle
 
-
 # Please note: dt = 0.1 is too big unfortunately. The simulation becomes inaccurate.
 dt = 0.0001
 runtime =10 # Desired simulation time in s
 num_steps = int(runtime/dt)
-
 
 # Generate input current waveform. Currently set up as a step input of 5 mA
 amplitude = 5
 I_ext = np.zeros(num_steps) 
 start_index = num_steps // 6
 I_ext[start_index:num_steps] = amplitude
-
 
 # Parameters to hold constant 
 V_t, V_r, Vs_r, d_Vus = 20, -45, 7.5, 1.3 #V_threshold, V_reset, Vs_reset, delta_Vus
@@ -312,7 +309,7 @@ V_MQIF, Vs, Vus, spikes, time = simulate_MQIF(num_steps, dt, -52, -50, -52, I_ex
 f, s, t, d = characterise_spiketrain(dt, spikes)
 elapsed2 = clock.time() - t1
 
-#print(f"A single simulation takes {elapsed1} seconds. A simulation plus characterisation takes {elapsed2} seconds.")
+#print(f"A simulation plus characterisation takes {elapsed2} seconds.")
 print(f"Frequency: {f} Hz, Spikes per Burst: {s}, Duration: {t} s, Duty Cycle: {d} %")
 plot_MQIF(time, I_ext, V_MQIF, Vs, Vus)
 f, s, t, d = characterise_spiketrain(dt, spikes)
