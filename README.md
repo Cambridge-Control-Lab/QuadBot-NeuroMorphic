@@ -71,7 +71,7 @@ Within the Simulink Neurons directory, you will discover the following subfolder
 
 These components (hopefully) enable the straightforward assembly of neuromorphic circuits for locomotive control. Individual neurons can be used to build central pattern generator circuits. When central pattern generator circuits are combined with feedback neurons, they can produce oscillators. These oscillators, in turn, allow for the encoding of stable gait patterns. For a brief and explanatory demonstration of this, you can watch the video here: [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ).
 
-### 'Solidworks' Directory
+### 'SOLIDWORKS' Directory
 All the custom CAD files used to contruct the two robots have been included in this directory. Here is a general rule-of-thumb-guide how each part of the existing robot was manufactured:
 * Brown (MDF wood) - Lasercut
 * White (PLA) - 3D Printed
