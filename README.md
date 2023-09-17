@@ -35,7 +35,7 @@ Thank you for your interest in our project, and feel free to reach out to clarif
 * [VEX V5 Simulink Expansion](https://uk.mathworks.com/matlabcentral/fileexchange/119133-vex-v5-simulink-expansion) --has been provided in this repository for convenience
 * [VEX SOLIDWORKS Files](https://github.com/VEX-CAD/VEX-CAD-Solidworks.git) --optional, but useful to have
 
-## Repository Overview
+## Overview of Files
 ### 'Ramp Up Guidance' Directory
 In this directory, you will discover a range of resources designed to facilitate your journey through this project. We recommend starting with 'Short Introductory Report.pdf' to gain contextual information regarding the undergraduate research placement conducted during the summer of 2023.
 
@@ -56,6 +56,8 @@ We also recommend the following resources:
 * https://en.wikipedia.org/wiki/Neural_coding
 * https://en.wikipedia.org/wiki/Hodgkin%E2%80%93Huxley_model
 
+---
+
 ### 'Simulink Neurons' Directory
 Within the Simulink Neurons directory, you will discover the following subfolders:
 
@@ -74,6 +76,8 @@ All the custom CAD files used to contruct the two robots have been included in t
 * Brown (MDF wood) - Lasercut
 * White (PLA) - 3D Printed
 * Shiny/Colourful (Aluminium/Plastic) - Provided by VEX
+
+---
 
 ### NeuroPup & Synapider
 NeuroPup is the dog-like robot. Synapider is the spider-like robot. 
