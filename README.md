@@ -81,7 +81,9 @@ Contained within this directory are various Simulink models that were flashed on
 #### 'Synapider - Spider Robot' Directory 
 Within this directory are various Simulink models that were flashed onto the spider-like robot. 
 
-* **
+* **'SpiderGait_Sine.slx'**: This file showcases a fundamental gait pattern using sinusoidal movements, replicable through MQIF neuronal circuits. 
+* **'SpiderGait_Better.slx'**: This is a small evolution on the SpiderGait_Sine.slx, in which the sinusoidal signals have undergone some post-processing to produce motions more akin to 'stepping'. In particular, this is the gait deomstrated in the [Introducing Synapider!](https://youtu.be/WLrbr75hk20) video.
+* **'SpiderHalfCentre_SingleLeg.slx'**: This program provides a straightforward illustration of how an oscillator, created using a half-center central pattern generator, make use of Synapider's leg mechanics to generate rhythmic motions.
 
 
 
