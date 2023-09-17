@@ -33,6 +33,7 @@ Thank you for your interest in our project, and feel free to reach out to clarif
 * [Simulink Coder Support Package for VEX EDR V5 Robot Brain](https://uk.mathworks.com/help/supportpkg/vexv5/)
 * [VEX V5 Advanced Smart Motor Blocks files](https://uk.mathworks.com/matlabcentral/answers/435564-vex-v5-motor-voltage) --has been provided in this repository for convenience
 * [VEX V5 Simulink Expansion](https://uk.mathworks.com/matlabcentral/fileexchange/119133-vex-v5-simulink-expansion) --has been provided in this repository for convenience
+* [VEX SOLIDWORKS Files](https://github.com/VEX-CAD/VEX-CAD-Solidworks.git) --optional, but useful to have
 
 ## Repository Overview
 ### 'Ramp Up Guidance' Directory
