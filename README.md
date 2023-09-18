@@ -16,7 +16,7 @@ This repository is dedicated to the "Neuromorphic Control of Quadrupedal Robots"
 
 ## Project Overview
 
-For further contextual details about the project and its goals, please refer to the brief contextual report, **Ramp Up Guidance/Short Introductory Report.pdf**.
+For further contextual details about the project and its goals, please refer to the brief contextual report, **[Ramp Up Guidance/Short Introductory Report.pdf](https://github.com/PritRaj1/QuadBot-NeuroMorphic/blob/main/Ramp%20Up%20Guidance/Short%20Introductory%20Report.pdf)**.
 
 Throughout this README, you will find links to various unlisted YouTube videos providing further guidance. Here is a playlist of all of them for your reference:
 **[QuadBot-NeuroMorphic YouTube Playlist](https://www.youtube.com/playlist?list=PLfc7dQtOJL7R3sYg_bDoXvOtagNdkhMTB)**
