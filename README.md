@@ -46,6 +46,7 @@ Additionally, within this directory you will find the 'Neuron Guidance' subfolde
 
 Once you have gained confidence with the Python/Notebook implementations of the neurons, consider examining the corresponding Simulink implementations available in the 'Simulink Neurons/Core Neurons' directory. The most important model is the 'MQIF_Neuron_Synapse.slx' file, as it serves as the foundational neuron for all central pattern generator circuits within this repository. In support of this, a video lecture has been recorded to aid your understanding: [MQIF_Synapse Explanation](https://youtu.be/Tk5bJmx7L14).
 
+
 We also recommend the following resources:
 * https://neuronaldynamics.epfl.ch/index.html
 * http://www.scholarpedia.org/article/Conductance-based_models
@@ -67,6 +68,8 @@ Within the Simulink Neurons directory, you will discover the following subfolder
 * **Characterising:** In this folder is a collection of MATLAB scripts for characterising neural output in relation to its governing parameters. Particular MQIF parameters can be optimised to achieve specfic pulse shapes, frequencies, durations, etc. These scripts have been included to aid future developers explore the parameter space. 
 
 These components (hopefully) enable the straightforward assembly of neuromorphic circuits for locomotive control. Individual neurons can be used to build central pattern generator circuits. When central pattern generator circuits are combined with feedback neurons, they can produce oscillators. These oscillators, in turn, allow for the encoding of stable gait patterns. For a brief and explanatory demonstration of this, you can watch the video here: [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ).
+
+---
 
 ### 'SOLIDWORKS' Directory
 All the custom CAD files used to contruct the two robots have been included in this directory. Here is a general rule-of-thumb-guide how each part of the existing robot was manufactured:
