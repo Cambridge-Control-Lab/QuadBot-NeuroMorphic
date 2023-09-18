@@ -23,6 +23,8 @@ Throughout this README, you will find links to various unlisted YouTube videos p
 
 Thank you for your interest in our project, and feel free to reach out to clarify and learn more about our work in the field of neuromorphic robotics!
 
+[Welcome Video!](https://youtu.be/8BMxn9v1NPU)
+
 ## Prerequisites
 
 * MATLAB/Simulink R2022b or later
@@ -90,6 +92,8 @@ Both are quadrupedal robots that were developed as part of the 10-week undergrad
 
 
 Please also watch the video linked [here](https://youtu.be/NR2hcypiejE), which serves as a brief introduction regarding the use of the VEX robots. Pay close attention to the process of 'waking up' the Brain after powering it down. It's important to note that executing a program immediately after powering down the Brain will not yield any behavior. In such cases, you must restart the program. This behavior is observed specifically after power cycling the VEX Brain. However, if you avoid powering it down between program executions, there is no need to restart the program; it will run successfully on the first attempt.
+
+You may also find [this video](https://youtu.be/GqSq24PBeaw) helpful - which demonstrates how to flash to the V5 Brain.
 
 **Please be aware that the VEX Brain imposes a minimum flashable sampling time of 0.001 seconds. Consequently, before uploading any Simulink models that incorporate the MQIF Neuron to the VEX Brain, please ensure that the fixed time-step solver is configured with a time step of 1e-3. This time step is also specifically stable for solving the MQIF ODEs. Using a larger time step may result in incorrect solutions/instability, while a smaller time step will not load onto the VEX Brain.**
 
