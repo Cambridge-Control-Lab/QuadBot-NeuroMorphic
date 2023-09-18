@@ -18,14 +18,8 @@ This repository is dedicated to the "Neuromorphic Control of Quadrupedal Robots"
 
 For further contextual details about the project and its goals, please refer to the brief contextual report, **Ramp Up Guidance/Short Introductory Report.pdf**.
 
-Throughout this README, you will find links to various unlisted YouTube videos providing further guidance. Here is an index of all of them for your reference:
-1. [Welcome Compilation](https://youtu.be/8BMxn9v1NPU)
-2. [Using the Robots](https://youtu.be/NR2hcypiejE)
-3. [Neuromorphic Gaiting Overview](https://youtu.be/aiv5ElMc6nQ)
-4. [Flashing the VEX Hardware](https://youtu.be/GqSq24PBeaw)
-5. [MQIF Simulink Lecture](https://youtu.be/Tk5bJmx7L14)
-6. [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE)
-7. [Introducing Synapider!](https://youtu.be/WLrbr75hk20)
+Throughout this README, you will find links to various unlisted YouTube videos providing further guidance. Here is a playlist of all of them for your reference:
+**[QuadBot-NeuroMorphic YouTube Playlist](https://www.youtube.com/playlist?list=PLfc7dQtOJL7R3sYg_bDoXvOtagNdkhMTB)**
 
 Thank you for your interest in our project, and feel free to reach out to clarify and learn more about our work in the field of neuromorphic robotics!
 
@@ -97,8 +91,8 @@ Please also watch the video linked [here](https://youtu.be/NR2hcypiejE), which s
 **Please be aware that the VEX Brain imposes a minimum flashable sampling time of 0.001 seconds. Consequently, before uploading any Simulink models that incorporate the MQIF Neuron to the VEX Brain, please ensure that the fixed time-step solver is configured with a time step of 1e-3. This time step is also specifically stable for solving the MQIF ODEs. Using a larger time step may result in incorrect solutions/instability, while a smaller time step will not load onto the VEX Brain.**
 
 Two videos have been recorded to introduce you to the two robots. They are recommended viewing, as some advice is also provided regarding their usage:
-* [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE)
-* [Introducing Synapider!](https://youtu.be/WLrbr75hk20)
+1. [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE)
+2. [Introducing Synapider!](https://youtu.be/WLrbr75hk20)
 
 #### 'Neuropup - Dog Robot' Directory
 Contained within this directory are various Simulink models that were flashed onto the dog-like robot. 
