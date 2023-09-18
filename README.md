@@ -103,11 +103,11 @@ Two videos have been recorded to introduce you to the two robots. They are recom
 1. [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE)
 2. [Introducing Synapider!](https://youtu.be/WLrbr75hk20)
 
-#### 'Neuropup - Dog Robot' Directory
+#### 'NeuroPup - Dog Robot' Directory
 Contained within this directory are various Simulink models that were flashed onto the dog-like robot. 
 
 * **'DogGait_sine.slx':** This file contains a basic gait pattern composed of sinusoidal movements, which can be replicated using MQIF neuronal circuits. To see this gait in action, use the 'stand' and 'walk' buttons, as demonstrated in the [Introducing NeuroPup!](https://youtu.be/5darLvzCVpE) video.
-* **'DogHalfCentre_SingleLeg.slx':** This program serves as a simple demonstration of how an oscillator, constructed using a half-center central pattern generator, can leverage the particular mechanical design of Neuropup's legs to produce rhythmic extension-contraction movements.
+* **'DogHalfCentre_SingleLeg.slx':** This program serves as a simple demonstration of how an oscillator, constructed using a half-center central pattern generator, can leverage the particular mechanical design of NeuroPup's legs to produce rhythmic extension-contraction movements.
 * **'NeuromorphicDogGait_WalksBackwards.slx':** This file showcases the application of a more intricate circuit, which we have started calling the 'Quad-centre CPG' (Central Pattern Generator), to generate a complex gait pattern. In this specific example, the gaiting pattern is designed to make the dog walk in reverse. For a brief explanation of how this was achieved, please watch the [Neuromorphic Gaiting](https://youtu.be/aiv5ElMc6nQ) video.
 
 #### 'Synapider - Spider Robot' Directory 
